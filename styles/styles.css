@@ -46,13 +46,34 @@ html {
 .page-header {
   color: #000000;
   background-color: #ffffff;
+  padding: 0 70px;
 }
+/* МОЖНО УБРАТЬ: */
+.nav-logo {
+  max-width: 100%;
+  /*height: auto;*/
+
+}
+
 .nav {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
+  column-gap: 30px;
+}
+.nav-list {
+  width: 454px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  margin: 0;
+  padding: 0;
 }
 .nav-link {
+  display: block;
+  padding: 20px 16px;
   line-height: 24px;
   color: inherit;
   font-weight: 700;
@@ -71,20 +92,20 @@ html {
 .social-item {
   list-style-type: none;
 }
-.nav-list {
-  display: flex;
-  margin: 0 0 0 30px;
-  padding: 0;
-}
+
 .nav-user {
   display: flex;
   width: 356px;
+  margin: 0;
   padding: 0;
   margin-left: auto;
 }
-.nav-item {
-  padding: 20px 16px;
+.user-link {
+  margin: 0;
+  padding: 0;
 }
+
+
 .button {
   color: #ffffff;
   background-color: #756157;
